@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="styling.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Welcome to My Portfolio</h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- About Me Section -->
+  <section id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>Hello, I’m a passionate Full Stack Developer skilled in front-end and back-end technologies. I enjoy creating user-friendly, responsive websites and solving complex problems with code.</p>
+      <p><strong>Skills:</strong> HTML, CSS, JavaScript, React, Node.js, MongoDB, Git</p>
+    </div>
+  </section>
+
+  <!-- Project Gallery Section -->
+  <section id="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="project-gallery">
+        <div class="project">
+          <h3>Project 1: Responsive Website</h3>
+          <img src="project1.png" alt="Project 1">
+          <p>This project involved creating a fully responsive website using HTML, CSS, and JavaScript.</p>
+          <a href="https://github.com/yourgithub/repository1" target="_blank">View Code</a>
+        </div>
+
+        <div class="project">
+          <h3>Project 2: JavaScript Game</h3>
+          <img src="project2.png" alt="Project 2">
+          <p>A fun browser-based game developed with HTML, CSS, and JavaScript.</p>
+          <a href="https://github.com/yourgithub/repository2" target="_blank">View Code</a>
+        </div>
+
+        <div class="project">
+          <h3>Project 3: Full Stack App</h3>
+          <img src="project3.png" alt="Project 3">
+          <p>A MERN stack application for managing tasks, with user authentication and real-time data updates.</p>
+          <a href="https://github.com/yourgithub/repository3" target="_blank">View Code</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+        
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>© 2024 My Portfolio</p>
+    </div>
+  </footer>
+
+  <script src="scripts.js></script>
+</body>
+</html>
